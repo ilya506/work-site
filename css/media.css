@@ -1,5 +1,6 @@
     @media (max-width: 1470px) {
     .adwantages-content {
+    /* Блочная модель */
     flex-wrap: wrap;
     }
     .adwantages-content__left {
@@ -23,7 +24,7 @@
     }
 
     .checkbox-text {
-        padding-left: 13px;
+    padding-left: 13px;
     }
 
     .header__container {
@@ -32,6 +33,7 @@
     }
 
     .burger {
+    /* Позиционирование */
     display: block; /* задает высоту, ширину и делает элемент блочным */
     outline: none;
     width: 30px;
@@ -40,6 +42,7 @@
     }
 
     .burger::before { /* добавляет масштаб кликабельности с рамкой */
+    /* Позиционирование */
     content: '';
     position: absolute;
     top: -3px;
@@ -54,6 +57,7 @@
     }
 
     .burger__line {  /* задает три полоски внутри бургера */
+    /* Позиционирование */
     position: absolute;
     display: inline-block;
     right: 0;
@@ -103,6 +107,7 @@
     .nav { /* при открытий бургера появляется меню то есть стилизация меню */
     width: 420px;
     height: 769px;
+    /* Позиционирование */
     position: absolute;
     left: -100vw;
     padding: 50px;
@@ -114,6 +119,7 @@
     }
 
     .nav__list {
+    /* Блочная модель */
     flex-direction: column; /* позиционирование флексом навигационного списка в колнку  */
     align-items: flex-start;
     }
@@ -127,6 +133,7 @@
     }
 
     .menu-close { /* крестик который закрывает  */
+    /* Позиционирование */
     position: relative;
     display: block;
     width: 23px;
@@ -136,6 +143,7 @@
 
     .menu-close::before,
     .menu-close::after {
+    /* Позиционирование */
     content: '';
     position: absolute;
     width: 100%;
@@ -165,12 +173,14 @@
     }
 
     .services-content__heading {
+    /* Типографика */
     font-size: 60px;
     line-height: 76px;
     margin-bottom: 10px;
     }
 
     .services-content__text {
+    /* Типографика */
     font-size: 20px;
     line-height: 24px;
     max-width: 660px;
@@ -182,8 +192,8 @@
     }
 
     .adwantages-top__item:first-child {
-        margin-bottom: 30px;
-        background-position: left 76px top 63px;
+    margin-bottom: 30px;
+    background-position: left 76px top 63px;
     }
 
     .adwantages__heading {
@@ -254,19 +264,20 @@
     }
 
     .templates-left__btn {
-        transition: opacity .3s ease-in-out;
-        outline: none;
-        padding: 20px 44px;
-        border-radius: 16px;
+    transition: opacity .3s ease-in-out;
+    outline: none;
+    padding: 20px 44px;
+    border-radius: 16px;
     }
 
     .templates-left__btn:first-child {
-        margin-right: 29px;
+    margin-right: 29px;
     }
 
     .templates-left__text {
     max-width: 437px;
     margin-bottom: 27px;
+     /* Типографика */
     font-size: 18px;
     line-height: 32px;
     }
@@ -285,6 +296,7 @@
     }
 
     .page__title {
+     /* Типографика */
     font-size: 22px;
     line-height: 23px;
     max-width: 756px;
@@ -308,6 +320,7 @@
     }
 
     .footer__container {
+    /* Блочная модель */
     justify-content: space-between;
     }
 
@@ -336,13 +349,13 @@
     }
 
     .search {
-        margin-left: -4px;
-        margin-top: 2px;
+    margin-left: -4px;
+    margin-top: 2px;
     }
 
     .logo__img {
-        width: 156px;
-        margin-top: 6px;
+    width: 156px;
+    margin-top: 6px;
     }
 
     .services {
@@ -355,11 +368,13 @@
     }
 
     .services-content__heading {
+     /* Типографика */
     font-size: 50px;
     line-height: 60px;
     }
 
     .services-content__text {
+     /* Типографика */
     font-size: 18px;
     max-width: 531px;
     }
@@ -383,16 +398,16 @@
     }
 
     .adwantages-top__item {
-        padding: 37px 43px 35px 298px;
-        padding-left: 170px;
-        background-size: 114px 99px;
-        background-position: left 28px top 70px;
-        height: 233px;
+    padding: 37px 43px 35px 298px;
+    padding-left: 170px;
+    background-size: 114px 99px;
+    background-position: left 28px top 70px;
+    height: 233px;
     }
 
     .adwantages-top__item:first-child {
-        margin-bottom: 32px;
-        background-position: left 39px top 65px;
+    margin-bottom: 47px;
+    background-position: left 39px top 65px;
     }
 
     .adwantages-right__item {
@@ -409,16 +424,18 @@
 
     .templates__list {
     margin-bottom: 42px;
+    /* Блочная модель */
     justify-content: space-between;
     }
 
 
     .templates-right__img {
-        width: 668px;
-        height: 284px;
+    width: 668px;
+    height: 284px;
     }
 
     .templates__content {
+    /* Блочная модель */
     flex-direction: column-reverse;
     }
 
@@ -433,7 +450,7 @@
     }
 
     .templates-right__img {
-        border-radius: 23px;
+    border-radius: 23px;
     }
 
     .templates-right {
@@ -466,6 +483,7 @@
     }
 
     .footer__container {
+    /* Блочная модель */
     flex-direction: column-reverse;
     }
 
@@ -487,13 +505,13 @@
     }
 
     .form__btn {
-        padding: 19px 44px;
-        margin-bottom: 9px;
-        margin-left: -3px;
+    padding: 19px 44px;
+    margin-bottom: 9px;
+    margin-left: -3px;
     }
 
     .checkbox-text {
-        padding-left: 0px;
+    padding-left: 0px;
     }
     }
 
@@ -508,7 +526,7 @@
     }
 
     .header__container {
-        margin-bottom: 31px;
+    margin-bottom: 31px;
     }
 
     .hero-content {
@@ -519,7 +537,8 @@
     width: 100%;
     }
     .site-heading {
-    font-size: 24px;
+     /* Типографика */
+    font-size: 21px;
     }
 
     .logo__img {
@@ -550,6 +569,7 @@
     }
 
     .adwantages-left__inner {
+    /* Блочная модель */
     flex-direction: column;
     }
 
@@ -573,34 +593,42 @@
     top: 60px;
     left: 0px;
     width: auto;
+    /* Блочная модель */
     align-content: center;
     text-align: center;
     }
 
     .services-content__text {
+     /* Типографика */
     font-size: 12px;
     line-height: 15px;
     max-width: 700px;
     margin-bottom: 20px;
+    /* Блочная модель */
     text-align: center;
     }
 
     .services-content__heading {
+     /* Типографика */
     font-size: 20px;
     line-height: 24px;
+    /* Блочная модель */
     text-align: center;
     }
 
     .services-content__btn {
     outline: none;
     padding: 8px 33px;
+ /* Типографика */
     font-size: 12px;
     border-radius: 8px;
+    /* Блочная модель */
     align-items: center;
     margin-top: 25px;
     }
 
     .sevices-content__text {
+     /* Типографика */
     font-size: 12px;
     line-height: 14px;
     font-weight: 700;
@@ -608,11 +636,13 @@
     }
 
     .sevices-content__btn {
+     /* Типографика */
     font-size: 12px;
     padding: 13px 29px;
     }
 
     .sevices-content {
+    /* Блочная модель */
     text-align: center;
     top: 60px;
     left: 22px;
@@ -632,11 +662,13 @@
     }
 
     .adwantages__heading {
+     /* Типографика */
     font-size: 24px;
     margin-bottom: 5px;
     }
 
     .adwantages__text {
+     /* Типографика */
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 15px;
@@ -656,6 +688,7 @@
     }
 
     .adwantages-left__text {
+     /* Типографика */
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
@@ -665,6 +698,7 @@
     }
 
     .adwantages-left__btn {
+     /* Типографика */
     font-size: 12px;
     align-self: start;
     padding: 7px 45px;
@@ -694,27 +728,33 @@
     }
 
     .adwantages-right__title {
-    font-size: 18px;
+     /* Типографика */
+    font-size: 21px;
     font-weight: 500;
     line-height: 21px;
     }
 
     .adwantages-right__text {
-    font-size: 14px;
+     /* Типографика */
+    font-size: 16px;
     line-height: 28px;
+    width: 282px
     }
 
     .templates {
-    padding-top: 45px;
+    padding-top: 65px;
     }
 
     .templates__headeing {
-    font-size: 24px;
-    margin-bottom: 20px;
+     /* Типографика */
+    font-size: 27px;
+    margin: 0;
+    line-height: 69px;
     }
 
     .templates__btn {
-    font-size: 14px;
+     /* Типографика */
+    font-size: 15px;
     }
 
     .templates__list {
@@ -738,26 +778,37 @@
     margin-bottom: 18px;
     }
 
+    .templates-left__text {
+    margin-bottom: 6px;
+    }
+
     .templates-left__title {
-    font-size: 18px;
+     /* Типографика */
+    font-size: 21px;
     font-weight: 500;
     margin-bottom: 14px;
+    line-height: 17px;
     }
 
     .templates-left__text {
-    font-size: 14px;
+     /* Типографика */
+    font-size: 15px;
     line-height: 28px;
+    width: 273px;
     }
 
     .templates-left__btn {
+     /* Типографика */
     font-size: 12px;
     padding: 13px 34px;
+    border-radius: 9px;
     }
 
     .templates-left__btn:first-child {
     margin-right: 0;
-    padding: 13px 44px;
-    margin-right: 8px;
+    padding: 13px 48px;
+    margin-right: 10px;
+    border-radius: 8px;
     }
 
     .page {
@@ -775,6 +826,7 @@
     }
 
     .page__title {
+     /* Типографика */
     font-size: 14px;
     line-height: 24px;
     font-weight: 500;
@@ -789,6 +841,7 @@
     }
 
     .page__descr {
+     /* Типографика */
     font-size: 14px;
     }
 
@@ -801,14 +854,17 @@
     }
 
     .footer__title {
+     /* Типографика */
     font-size: 24px;
     }
 
     .form__input::placeholder {
+     /* Типографика */
     font-size: 14px;
     }
 
     .form__area::placeholder {
+     /* Типографика */
     font-size: 14px;
     }
 
@@ -817,13 +873,16 @@
     }
 
     .form__inner {
+    /* Блочная модель */
     display: flex;
     flex-direction: column;
     }
 
     .form__btn {
     margin-right: 0;
+    /* Блочная модель */
     align-self: center;
+     /* Типографика */
     font-size: 12px;
     padding: 14px 29px;
     margin-bottom: 17px;
@@ -836,6 +895,7 @@
     .footer-left {
     width: 100%;
     padding-top: 17px;
+    /* Блочная модель */
     display: flex;
     flex-direction: column;
     border-top: 1px solid #595959;
@@ -851,6 +911,7 @@
     }
 
     .footer__social {
+    /* Блочная модель */
     align-self: center;
     }
 
